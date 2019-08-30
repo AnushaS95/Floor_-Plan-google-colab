@@ -1,4 +1,4 @@
-THIS INCLUDES DATA
+
 # CubiCasa5K: A Dataset and an Improved Multi-Task Model for Floorplan Image Analysis
 
 Paper: [CubiCasa5K: A Dataset and an Improved Multi-Task Model for Floorplan Image Analysis](https://arxiv.org/abs/1904.01920v1)
