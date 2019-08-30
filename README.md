@@ -1,3 +1,4 @@
+THIS INCLUDES DATA
 # CubiCasa5K: A Dataset and an Improved Multi-Task Model for Floorplan Image Analysis
 
 Paper: [CubiCasa5K: A Dataset and an Improved Multi-Task Model for Floorplan Image Analysis](https://arxiv.org/abs/1904.01920v1)
@@ -26,6 +27,8 @@ docker run --rm -it --init \
 ```
 You can now open a terminal in [JupyterLab web interface](http://localhost:1111) to execute more commands in the container.
 
+
+##THE BELOW REQUIREMENT IS ALREADY FULFILLED IN THE ABOVE PROJECT
 ## Database creation
 We create a LMDB database of the dataset, where we store the floorplan image, segmentation tensors and heatmap coordinates. This way we can access the data faster during training and evaluation. The downside however is that the database takes about 105G of hard drive space. There is an option to parse the SVG file on the go but it is slow for training.
 Commands to create the database:
